@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm neovim firefox zsh i3 terminator yay flameshot xpdf curl wget code pavucontrol unrar unzip 7z
+sudo pacman -S --noconfirm neovim firefox zsh i3 terminator yay flameshot xpdf curl wget code pavucontrol unrar unzip chromium 7z
 
 ##touch-cursor
 git clone https://github.com/donniebreve/touchcursor-linux
