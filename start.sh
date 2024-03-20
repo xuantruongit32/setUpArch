@@ -14,6 +14,11 @@ sudo systemctl --user restart touchcursor.service
 ##OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+git clone https://aur.archlinux.org/postman-bin.git
+cd postman-bin
+makepkg -si
+
+
 
 
 
