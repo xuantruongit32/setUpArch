@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm neovim firefox zsh terminator yay flameshot mpv curl wget code pavucontrol unrar unzip npm scrcpy xcape git zoxide xclip
+sudo pacman -S --noconfirm neovim firefox zsh terminator yay flameshot mpv curl wget code pavucontrol unrar unzip npm scrcpy xcape git zoxide xclip ibus 
 
 ##touch-cursor
 git clone https://github.com/donniebreve/touchcursor-linux
@@ -17,6 +17,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://aur.archlinux.org/postman-bin.git
 cd postman-bin
 makepkg -si
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/BambooEngine/ibus-bamboo/master/archlinux/install.sh)"
 
 
 
