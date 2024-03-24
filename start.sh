@@ -20,7 +20,7 @@ makepkg -si
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/BambooEngine/ibus-bamboo/master/archlinux/install.sh)"
 
-
+git clone https://github.com/xuantruongit32/Remap-keyboard
 
 
 
